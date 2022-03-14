@@ -5,7 +5,7 @@
 /**
  *main - prints random values
  *
- *return: Always 0 on success
+ *return: 0 on success
  **/
 
 int main(void)
