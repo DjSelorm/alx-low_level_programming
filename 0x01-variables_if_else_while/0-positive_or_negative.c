@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
- *more headers goes there 
+ *more headers goes there
  *betty style doc for function main goes there
  *
- *main - Entry point
+ *int main - Entry point
  *
  *return: Always (0) success
- *Description: rand  generates random number
+ *rand  generates random number
  */
 
 int main(void)
