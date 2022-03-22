@@ -5,11 +5,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void _puts(char *str)
 {
-	char *str;
-
-	str = "I do not fear computers anything\n";
+	str = "I do not fear computers or anything\n";
 	_puts(str);
 	return (0);
 }
