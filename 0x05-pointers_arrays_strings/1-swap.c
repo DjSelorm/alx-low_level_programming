@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * void swap_int(int *a, int *b) - Write a function that swaps
+ *swap_int(int *a, int *b) - Write a function that swaps
  * the values of two integers
  *
- * @a,@b: numbers.
+ * @a;pointer.
+ * @b: pointer.
  */
 
 void swap_int(int *a, int *b)
