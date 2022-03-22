@@ -1,12 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _puts - prints a string and a new line
+ * @str: pointer to a string to print
  *
- * Return: Always 0.
+ * Return: 0
  */
+
 void _puts(char *str)
 {
-	str = "I do not fear computers or anything\n";
-	_puts(str);
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
